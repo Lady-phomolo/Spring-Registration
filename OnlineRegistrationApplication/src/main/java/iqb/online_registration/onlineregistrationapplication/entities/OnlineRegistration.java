@@ -26,7 +26,7 @@ public class OnlineRegistration {
 
     public OnlineRegistration(){}
 
-    public OnlineRegistration(Long id, String firstName, String surname, Long idNumber, String telNumber) {
+    public OnlineRegistration(Long id, String firstName, String lastName, Long idNumber, String telNumber) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -78,7 +78,7 @@ public class OnlineRegistration {
 
         return "OnlineRegistration{"+
                 "id=" + id +
-                ", firstName='" + firstName +'\''+
+                ",firstName='" + firstName +'\''+
                 ",lastName' "+ lastName + '\''+
                 ",idNumber" + idNumber +'\''+
                 ",telNumber" + telNumber + '\''+

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/")
 @CrossOrigin(origins ="http://localhost:4200", allowedHeaders = "*")
 public class OnlineRegistrationController {
 

@@ -23,7 +23,6 @@ public class OnlineRegistrationModel{
     private String telNumber;
 
 
-
     public Long getId() {
         return id;
     }
@@ -46,7 +45,7 @@ public class OnlineRegistrationModel{
     }
 
     public void setLastName(String lastName) {
-        lastName = lastName;
+        this.lastName = lastName;
     }
 
     public Long getIdNumber() {
@@ -54,7 +53,7 @@ public class OnlineRegistrationModel{
     }
 
     public void setIdNumber(Long idNumber) {
-        idNumber = idNumber;
+        this.idNumber = idNumber;
     }
 
     public String getTelNumber() {

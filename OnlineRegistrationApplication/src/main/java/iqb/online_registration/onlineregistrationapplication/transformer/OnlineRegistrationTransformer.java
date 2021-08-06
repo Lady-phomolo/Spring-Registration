@@ -18,6 +18,7 @@ public class OnlineRegistrationTransformer {
             model.setFirstName(entity.getFirstName());
             model.setLastName(entity.getLastName());
             model.setIdNumber(entity.getIdNumber());
+            model.setTelNumber(entity.getTelNumber());
 
         }
         return model;
@@ -41,6 +42,7 @@ public class OnlineRegistrationTransformer {
             entity.setFirstName(model.getFirstName());
             entity.setLastName(model.getLastName());
             entity.setIdNumber(model.getIdNumber());
+            entity.setTelNumber(model.getTelNumber());
         }
     }
 
